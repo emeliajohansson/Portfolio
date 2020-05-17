@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" charset="utf-8"></script>
+    <script
+      src="https://kit.fontawesome.com/5ee0145c99.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+
+    <title>Emelia Johansson</title>
+  </head>
+  <body>
+    <div class="container">
+      <p id="subline">Welcome to my portfolio</p>
+      <h1 class="center" id="name">
+        Emelia <br />
+        Johansson
+      </h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="emelia.jpg"
+            alt="Emelia Johansson"
+            id="photo"
+            class="center"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2>
+            About me
+            <a href="https://www.linkedin.com/in/emelia-johansson-298769116/"
+              ><i class="fab fa-linkedin vertical-line-left"></i
+            ></a>
+          </h2>
+          <p>
+            <b>Email: </b
+            ><a href="mailto:emeliajohansson1@gmail.com"
+              >emeliajohansson1@gmail.com</a
+            >
+          </p>
+          <p>
+            My name is Emelia and I am a 23 year old Interactive Media
+            Technology master student at KTH Royal Institute of Technology,
+            Sweden. I’m passionate about creating UX/UI design, web development
+            and information visualization.
+          </p>
+          <p>
+            I’ve had the opportunity to work on a number of instructive projects
+            during my time at KTH. I hope you’ll enjoy viewing my projects as
+            much as I enjoyed working on them.
+          </p>
+          <p>
+            I also work part time at SAS Scandinavian Airlines. My work is
+            focused around the Business Analyst Team at the Customer Service
+            department. Due to the nature of my role at SAS many of the projects
+            I've worked on since 2018 are confidential. Consequently, I can't
+            publicly share my best work from the past years at SAS.
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      <div class="row">
+        <div class="col-lg-6 vertical-center">
+          <img
+            class="sas slideshow"
+            src="images/sas1.jpg"
+            style="display: block"
+          />
+          <img class="sas slideshow" src="images/sas2.jpg" />
+          <img class="sas slideshow" src="images/sas3.jpg" />
+          <div class="image-nav">
+            <div class="arrow-left" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="arrow-right" onclick="plusDivs(1)">&#10095;</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2>
+            Projects <span class="vertical-line-left"></span>
+            <img class="h2-logo" src="SAS_Logo.png" alt="SAS logo" />
+          </h2>
+          <p>
+            The Customer Recovery and Liability department needed a deeper
+            understanding of the claims, complaitnts and compliments submitted
+            to SAS. The only data available previously were the current queue
+            status.
+          </p>
+          <p>
+            This interactive tool gives the them the possibility to look at
+            several corralations, analyze trends and follow up on categories,
+            teams or sites. The dashboard uses Microsoft's Power Bi and data is
+            exctracted and processed from the database with SQL. All visuals are
+            interactive and connected to each other with create endless
+            possibilities to explore the data.
+          </p>
+
+          <p>Some exampleas of what can be viewed in the dasboard are:</p>
+          <ul>
+            <li>
+              Corralation between the amount of working agents and closed cases.
+            </li>
+            <li>
+              More in depth follow up on productivity, eg. the amount of emails
+              sent, amount of expected and unexpected return emails from
+              customers.
+            </li>
+            <li>Better understanding of the KPIs.</li>
+            <li>Further information of the queue status.</li>
+          </ul>
+
+          <p>
+            With the help of this dashboard has the team changed a some routines
+            for how to handle cases. The most significan is that they now
+            primarly focuses on cases in the queue instead of return emails.
+            This was changed after we discovered that a case can ususally be
+            slolved with one email to the customer (our decision/reply) and only
+            10% of the cases that has been marked as closed by an agent are
+            reopened again.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6">kth</div>
+      </div>
+
+      <p id="bottomline"></p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
